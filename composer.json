@@ -1,0 +1,19 @@
+{
+    "name": "bryan/tut-plugin",
+    "description": "WordPress plugin tutorial",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "bmich72",
+            "email": "bryanpmicheal72@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Includes\\": "./includes"
+        }
+    }
+}
